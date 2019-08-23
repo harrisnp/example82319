@@ -8,6 +8,10 @@
 
 ## Project Setup
 `git init`
+`touch .gitignore`
+Add `*.class` to the .gitignore files and save it.
+`git add .`
+`git commit -m "Initial commit"`
 
 ## 3 Step Repeating Commit Process
 1. Make Changes to code
@@ -26,5 +30,4 @@
 * commit without -m -> Use Esc :wq  (then press enter) to quit Vim 
 * Wrong message -> Git commit --amend -m "New Message"
 * git checkout -- filename discard changes
-
-New Change
+* wrong commit -> git checkout COMMIT_ID
